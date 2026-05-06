@@ -1,0 +1,156 @@
+body {
+    margin: none;
+}
+
+/*MAIN*/
+
+main {
+    margin: none;
+    text-align: center;
+}
+
+#buffer{
+    height: 4rem;
+}
+
+.navbar-brand {color: white !important;}
+.navbar-brand:hover {color: skyblue !important;}
+
+.nav-item a {color: white;}
+.nav-item:hover a {color: skyblue;}
+
+h1 {font-size: 32px; font-family: "Roboto Condensed", sans-serif;}
+
+/*CAROUSEL*/
+
+.f-progress {display: none;}  .f-carousel__dots {display: none;} 
+
+#img1 {content: url("Green1Alt.jpg");}
+#img2 {content: url("Green2Alt.jpg");}
+#img3 {content: url("Green3Alt.jpg");}
+#img4 {content: url("Green4Alt.jpg");}
+#img5 {content: url("Green5Alt.jpg");}
+#img6 {content: url("Green6Alt.jpg");}
+
+.f-carousel__slide img {
+    width: 100%;
+}
+
+.centered {
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered h1 {font-size: 64px;}
+.centered h2 {font-size: 32px;}
+.centered a {font-size: 16px;}
+
+/*About*/
+
+#about {
+    scroll-margin-top: 3rem;
+    width: 100%;
+    max-width: 800px;
+    margin: 0rem auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-top: -1rem;
+}
+
+/*Projects*/
+
+#projects {
+    scroll-margin-top: 3rem;
+    padding: 1rem;
+    margin: 0rem auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+/*Contact*/
+
+#contact {
+    padding-top: 1rem;
+    scroll-margin-top: 3rem;
+    width: 100%;
+    margin: 0rem auto;
+}
+
+#contact a {padding: 1rem;}
+#contact h1 {color:white;}
+
+/*Game Windows*/
+
+#gal {text-align: center;}
+
+#gal a {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    color: #cedefb;
+}
+
+#gal a img{
+    border-radius: 8px;
+    width: 30%
+}
+
+#info {
+    max-width: 960px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: black;
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: left;
+}
+
+#mainBod {
+    padding-bottom: 2rem;
+}
+
+#info nav {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h2 {font-family: "Roboto Condensed", sans-serif;}
+
+#GreenhouseIMG {text-align: center; margin-bottom: 1rem;}
+#GreenhouseIMG img {width: 90%;}
+
+#BuggedIMG {text-align: center; margin-bottom: 1rem;}
+#BuggedIMG img {width: 50%;}
+
+/*  Media Queries (responsive to screen width) */
+@media all and (min-width: 992px){
+    main {margin: 0rem auto;}
+    #myCarousel {margin: 0rem auto;}
+    #img1 {content: url("Green1.jpg");} 
+    #img2 {content: url("Green2.jpg");} 
+    #img3 {content: url("Green3.jpg");} 
+    #img4 {content: url("Green4.jpg");} 
+    #img5 {content: url("Green5.jpg");} 
+    #img6 {content: url("Green6.jpg");} 
+    h1 {font-size: 64px;}
+    #info {margin: 0rem auto; margin-top: 2rem;}
+}
+
+@media all and (min-width: 800px){
+    #gal a img{max-width: 10rem;} 
+    #gal a {margin-left: 2rem; margin-right: 2rem;} 
+    #info {text-align: center;}
+}
+
+@media all and (max-width: 830px){
+    .centered h1 {font-size: 32px;}
+    .centered h2 {font-size: 16px;}
+    .centered a {font-size: 12px;}
+    .card-title {font-size: 16px;}
+    .card-text {font-size: 12px;}
+}

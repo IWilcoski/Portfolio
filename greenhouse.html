@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Greenhouse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+    <link href="Portfolio.css" rel="stylesheet" type="text/css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body class = "bg-dark">
+    <div>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="main.html#">Portfolio</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html#projects">Projects</a>
+                    </li>
+                    <!--
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resume</a>
+                    </li>
+                    -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html#contact">Contact Me</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </header>
+        <main class="bg-secondary bg-gradient" id = "mainBod">
+            <div id="buffer" class="bg-dark"> </div> 
+            <div class = "bg-primary-subtle" id = "info">
+                <h1>Project Greenhouse</h1>
+                <nav>
+                    <h2>Engine/Language: Unity, C#</h2><br/>
+                    <h3>My Role</h3>
+                    <p>In this project I was the 3D programming lead and handled the player movement, enemy AI, animation control, and interactable elements like item pick ups/pop ups and an inventory tetris system.</p>
+                    <h3>Game Summary</h3>
+                    <p>Project Greenhouse was a game created over my last year in Game Design at Illinios State University through my capstone course alongside seven of my peers. The game was a hybrid 2D/3D game about a post apocalyptic world where you're the only engineer who survives cryosleep in a greenhouse bunker.</p>
+                    <p>In the 2D greenhouse you grow plants, upgrade their growth abilities, and trade with outsiders who contact you. While you wait for plants to grow, you can upgrade and send out a robot into the radioactive wastes.</p>
+                    <div id = "GreenhouseIMG">
+                        <img src="2Green2.png" alt="The upgrade lab used in the greenhouse" />
+                    </div>
+                    <p>The 3D is comprised of the ever changing underground sewers and the city above it. There you collect scrap items for reuse, discover what disaster happened through notes around the wasteland, and avoid the mutated creatures and killer robots in the city. Item storage is managed through an inventory tetris system with different item values to encourage players to be smart about what scrap they pick up.</p>
+                </nav>
+                <div id = "gal">
+                    <a href="Green2Alt.jpg" data-fancybox="gallery" data-caption="Bug enemy stalking the player">
+                        <img src="Green2Thumb.jpg" />
+                    </a>
+                
+                    <a href="Green3Alt.jpg" data-fancybox="gallery" data-caption="Abandoned store with a deactivated bomb">
+                        <img src="Green3Thumb.jpg" />
+                    </a>
+                
+                    <a href="Green7Alt.jpg" data-fancybox="gallery" data-caption="Inventory tetris system for the backpack in 3D">
+                        <img src="Green7Thumb.jpg" />
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <script>
+            Fancybox.bind("[data-fancybox]", {});
+        </script>
+    </div> <!--Container-->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+</script>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bugged and Sorted</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+    <link href="Portfolio.css" rel="stylesheet" type="text/css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body class = "bg-dark">
+    <div>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="main.html#">Portfolio</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html#projects">Projects</a>
+                    </li>
+                    <!--
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resume</a>
+                    </li>
+                    -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html#contact">Contact Me</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </header>
+        <main class="bg-secondary bg-gradient" id = "mainBod">
+            <div id="buffer" class="bg-dark"> </div> 
+            <div class = "bg-primary-subtle" id = "info">
+                <h1>Bugged and Sorted</h1>
+                <nav>
+                    <h2>Engine/Language: Unity, C#</h2>
+                    <h2>Itch.io Page: <a target="_blank" href="https://glueseph.itch.io/winter2024-2025gamejam">Bugged and Sorted</a></h2><br/>
+                    <h3>My Role</h3>
+                    <p>I was the sole programmer in this project, handling drag and drop in a 3D space, implementing play states with warnings for near-death, sound effects and music, and various sprite animations.</p>
+                    <h3>Game Summary</h3>
+                    <p>Bugged and Sorted was my 2nd collegiate game jam project, and was produced over three days. In the game you're a new employee at the Department of Bug Drone Operations or D.B.D. Here you drag and drop bugs on conveyour belts into categories like flight, wheels, radar, and screens. Keep an eye out for defective bugs that need to be trashed!</p>
+                    <div id = "BuggedIMG">
+                        <img src="BuggedThumb.png" alt="The Bugged and Sorted logo" />
+                    </div>
+                    <p>This project had difficulties in group communication, as the initial meetings never had the whole group present. It was a valuable lesson in taking lead and forced me to crunch and adapt the game concept to fit the misaligned elements.</p>
+                </nav>
+                <div id = "gal">
+                    <a href="Screen1.png" data-fancybox="gallery" data-caption="Player depositing a bug into the correct bin.">
+                        <img src="Screen1Thumb.png" />
+                    </a>
+                
+                    <a href="Screen2.png" data-fancybox="gallery" data-caption="A game with a lot of bugs backlogged on conveyors.">
+                        <img src="Screen2Thumb.png" />
+                    </a>
+                
+                    <a href="Screen3.png" data-fancybox="gallery" data-caption="The opening menu screen on a clipboard.">
+                        <img src="Screen3Thumb.png" />
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <script>
+            Fancybox.bind("[data-fancybox]", {});
+        </script>
+    </div> <!--Container-->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+</script>
+
+</html>
